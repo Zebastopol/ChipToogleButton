@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGrupo"
+        android:layout_width="397dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipJava"
+            style="@style/customChip"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="Java" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipC"
+            style="@style/customChip"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="C#" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipKotlin"
+            style="@style/customChip"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="Kotlin" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipPhp"
+            style="@style/customChip"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="Php"
+            android:backgroundTint="@drawable/button_rounded" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipGo"
+            style="@style/customChip"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:text="Go"
+            android:backgroundTint="@drawable/button_rounded"/>
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="ToggleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipGrupo"
+        android:background="@drawable/button_rounded"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Save"
+        android:background="@drawable/button_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/chipGrupo"
+        style="@style/customChip" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

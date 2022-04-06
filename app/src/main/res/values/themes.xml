@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChipToogleButton" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <item name="colorPrimaryVariant">@color/md_cyan_500</item>
+        <item name="colorOnPrimary">@color/md_cyan_100</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/md_cyan_500_75</item>
+        <item name="colorSecondaryVariant">@color/md_cyan_300</item>
+        <item name="colorOnSecondary">@color/md_cyan_400</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="customChip" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="chipStrokeColor">#00bcd4</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#18ffff</item>
+        <item name="chipBackgroundColor">#b2dfdb</item>
+
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <item name="colorPrimaryVariant">@color/md_cyan_500</item>
+        <item name="colorOnPrimary">@color/md_cyan_100</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/md_cyan_500_75</item>
+        <item name="colorSecondaryVariant">@color/md_cyan_300</item>
+        <item name="colorOnSecondary">@color/md_cyan_400</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+
+
+
+    </style>
+</resources>
